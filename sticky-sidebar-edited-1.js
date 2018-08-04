@@ -86,7 +86,7 @@ var stickySidebar = createCommonjsModule(function (module, exports) {
        * Inner wrapper selector.
        * @type {String}
        */
-      innerWrapperSelector: '.third-slot article-third-slot',
+      innerWrapperSelector: '.third-slot.article-third-slot',
 
       /**
        * The name of CSS class to apply to elements when they have become stuck.
