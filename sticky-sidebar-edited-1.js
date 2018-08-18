@@ -425,7 +425,7 @@ var stickySidebar = createCommonjsModule(function (module, exports) {
           switch (affixType) {
             case 'VIEWPORT-TOP':
               style.inner = { position: 'fixed', top: dims.topSpacing,
-                left: dims.sidebarLeft - dims.viewportLeft, width: dims.sidebarWidth };
+                left: 'auto', width: dims.sidebarWidth };
               break;
             case 'VIEWPORT-BOTTOM':
               style.inner = { position: 'fixed', top: 'auto', left: 'auto',
@@ -449,7 +449,7 @@ var stickySidebar = createCommonjsModule(function (module, exports) {
           }
 
           style.outer = StickySidebar.extend({ height: '', position: '' }, style.outer);
-          style.inner = StickySidebar.extend({ position: 'relative', top: '', left: '',
+          style.inner = StickySidebar.extend({ position: 'relative', top: '', left: 'auto',
             bottom: '', width: '', transform: '' }, style.inner);
 
           return style;
