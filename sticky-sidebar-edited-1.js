@@ -449,7 +449,7 @@ var stickySidebar = createCommonjsModule(function (module, exports) {
           }
 
           style.outer = StickySidebar.extend({ height: '', position: '' }, style.outer);
-          style.inner = StickySidebar.extend({ position: 'relative', top: '', left: 'auto',
+          style.inner = StickySidebar.extend({ position: 'relative', top: '', left: 'aut',
             bottom: '', width: '', transform: '' }, style.inner);
 
           return style;
